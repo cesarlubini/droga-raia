@@ -1,0 +1,57 @@
+.navbar-nav > li > .dropdown-menu {
+  width: 350px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px #0003;
+}
+
+.navbar-nav > li > .dropdown-menu .dropdown-titulo {
+  background-color: #198492;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 15px;
+  border-radius: 5px 5px 0 0;
+}
+
+.navbar-nav > li > .dropdown-menu .dropdown-marca {
+  color: #f1a658;
+}
+
+.navbar-nav > li > .dropdown-menu .dropdown-preco {
+  padding: 30px 15px 15px;
+}
+
+.navbar-nav > li > .dropdown-menu .dropdown-preco .preco-de {
+  color: #8d8178;
+  font-size: 12px;
+}
+
+.navbar-nav > li > .dropdown-menu .dropdown-preco .preco-por-tamanho {
+  font-size: 14px;
+}
+
+.navbar-nav > li > .dropdown-menu .dropdown-preco .preco-por {
+  color: #f1a658;
+  font-size: 36px;
+  line-height: 30px;
+  padding-bottom: 5px;
+  font-weight: 700;
+}
+
+.navbar-nav > li > .dropdown-menu .dropdown-preco .btn-comprar {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 120px;
+  background-color: #198492;
+}
+
+.navbar-nav > li > .dropdown-menu .dropdown-texto {
+  color: #8d8178;
+  font-size: 12px;
+}

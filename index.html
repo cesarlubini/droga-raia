@@ -1,16 +1,101 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="js/bootstrap.min.js" defer></script>
-  <script src="js/main.js" defer></script>
-  <title>Droga Raia - Farmácia 24h</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      defer
+    ></script>
+    <script src="js/bootstrap.min.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <title>Droga Raia - Farmácia 24h</title>
+  </head>
+  <body>
+    <div class="bg-light">
+      <div class="container ">
+        <div class="row">
+          <div class="col-12">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand" href="#">Droga Raia</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#conteudoNavbarSuportado"
+                aria-controls="conteudoNavbarSuportado"
+                aria-expanded="false"
+                aria-label="Alterna navegação"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
 
-</body>
+              <div
+                class="collapse navbar-collapse"
+                id="conteudoNavbarSuportado"
+              >
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link text-uppercase"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Oferta do dia
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <div class="dropdown-titulo">
+                        Bepantol Lipstick -
+                        <span class="dropdown-marca">Bepantol</span> - 4,5g
+                      </div>
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-6">
+                            <img src="img/b-pantol-dropdown.png" alt="" />
+                          </div>
+                          <div class="col-6 dropdown-preco text-right">
+                            <div class="preco-de">
+                              <s>R$31,99</s>
+                            </div>
+                            <div class="preco-por">
+                              <span class="preco-por-tamanho">R$</span>19,83
+                            </div>
+                            <button class="btn btn-comprar">
+                              Comprar
+                            </button>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-12 dropdown-texto">
+                            <p>
+                              Bepantol Lipstick possui alta concentração de
+                              dexpantenol (Pró-Vitamina B5), que estimula a
+                              renovação celular natural da pele e possui efeito
+                              reparador, hidratante e embelezador. Sua fórmula
+                              contém Vitamina-E, um poderoso antioxidante que
+                              auxilia no combate aos radicais livres.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-uppercase" href="#">Login</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
