@@ -91,7 +91,12 @@
                     </div>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-uppercase" href="#">Login</a>
+                    <a
+                      class="nav-link text-uppercase"
+                      data-toggle="modal"
+                      data-target="#newPage"
+                      >Login</a
+                    >
                   </li>
                 </ul>
               </div>
@@ -141,5 +146,65 @@
         </div>
       </div>
     </section>
+
+    <div
+      class="modal fade modal-right"
+      id="newPage"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="newPage"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="titulo-login" id="exampleModalLabel">Identificação</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h2 class="sub-titulo-login">Já sou cliente</h2>
+            <form action="">
+              <div class="form-group">
+                <label for="emailCpf" class="login-form-label"
+                  >Email ou CPF*</label
+                >
+                <input type="text" class="form-control" name="emailCpf" />
+                <label for="senha" class="login-form-label">Senha*</label>
+                <input type="text" class="form-control" name="senha" />
+                <button class="btn btn-comprar">Entrar</button>
+                <span class="cadastre-se-link"
+                  >Não é cliente? <b><u>Cadastre-se!</u></b></span
+                >
+              </div>
+            </form>
+            <div class="dropdown-divider"></div>
+            <h2 class="sub-titulo-login mb-3">Precisa de ajuda?</h2>
+            <form action="">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="duvida"
+                  placeholder="Digite sua dúvida"
+                />
+              </div>
+            </form>
+            <button class="btn btn-comprar btn-duvida float-left">
+              Troca ou devolução
+            </button>
+            <button class="btn btn-comprar btn-duvida float-right">
+              Central de atendimento
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

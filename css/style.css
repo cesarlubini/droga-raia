@@ -1,3 +1,7 @@
+.nav-link {
+  cursor: pointer;
+}
+
 .navbar-nav > li > .dropdown-menu {
   width: 350px;
   padding: 0;
@@ -47,7 +51,7 @@
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
-  width: 120px;
+  min-width: 120px;
   background-color: #198492;
 }
 
@@ -88,4 +92,57 @@
   font-size: 16px;
   color: #8d8178;
   padding-top: 20px;
+}
+
+.modal.fade.modal-right .modal-dialog {
+  transform: translate(20%, 0px);
+  margin: 0 0 0 auto;
+}
+
+.modal.show.modal-right .modal-dialog {
+  transform: none;
+}
+
+.modal.fade.modal-right .modal-dialog .modal-content {
+  min-height: 100vh;
+  border: none;
+  border-radius: 0px;
+  box-shadow: 0px 0px 1px #0003;
+}
+
+.titulo-login {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 24px;
+  color: #198492;
+}
+
+.close {
+  color: #198492;
+}
+
+.sub-titulo-login {
+  font-size: 26px;
+  color: #198492;
+  font-weight: 700;
+  padding-top: 30px;
+}
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+.login-form-label {
+  margin-bottom: 0;
+}
+
+.cadastre-se-link {
+  margin-top: 10px;
+  float: right;
+}
+
+.btn-duvida {
+  text-transform: none;
+  font-weight: 400;
+  width: 49%;
 }
