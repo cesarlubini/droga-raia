@@ -25,16 +25,16 @@
   padding: 30px 15px 15px;
 }
 
-.navbar-nav > li > .dropdown-menu .dropdown-preco .preco-de {
+.preco-de {
   color: #8d8178;
   font-size: 12px;
 }
 
-.navbar-nav > li > .dropdown-menu .dropdown-preco .preco-por-tamanho {
+.preco-por-tamanho {
   font-size: 14px;
 }
 
-.navbar-nav > li > .dropdown-menu .dropdown-preco .preco-por {
+.preco-por {
   color: #f1a658;
   font-size: 36px;
   line-height: 30px;
@@ -42,7 +42,7 @@
   font-weight: 700;
 }
 
-.navbar-nav > li > .dropdown-menu .dropdown-preco .btn-comprar {
+.btn-comprar {
   color: #fff;
   font-size: 16px;
   font-weight: 700;
@@ -51,7 +51,41 @@
   background-color: #198492;
 }
 
-.navbar-nav > li > .dropdown-menu .dropdown-texto {
+.dropdown-texto {
   color: #8d8178;
   font-size: 12px;
+}
+
+.titulo-sessao {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 36px;
+  color: #198492;
+  padding: 30px 0;
+}
+
+.oferta-prod-titulo {
+  color: #198492;
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.oferta-prod-marca {
+  color: #ae3e4b;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.oferta-prod-quant {
+  color: #198492;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.prod-desc {
+  font-size: 16px;
+  color: #8d8178;
+  padding-top: 20px;
 }
